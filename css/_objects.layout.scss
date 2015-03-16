@@ -1,0 +1,11 @@
+.o-layout {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    margin-left: -$base-spacing-unit;
+}
+
+    .o-layout__item {
+        display: inline-block;
+        padding-left: $base-spacing-unit;
+    }

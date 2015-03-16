@@ -1,0 +1,13 @@
+ul {
+    list-style: square outside;
+}
+
+li > {
+
+    ul,
+    ol {
+        margin-left: 2 * $base-spacing-unit;
+        margin-bottom: 0;
+    }
+
+}

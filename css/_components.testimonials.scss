@@ -1,0 +1,28 @@
+.c-testimonial {
+    padding: $base-spacing-unit;
+    border-radius: $base-radius;
+    background-color: $color-shadow;
+}
+
+    .c-testimonial__text {
+        font-family: Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+        font-style: italic;
+        @include font-size(24px);
+        vertical-align: middle;
+    }
+
+    .c-testimonial__source {
+        display: block;
+        font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        @include font-size(12px);
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: $color-gray;
+
+        &:before {
+            content: "— ";
+        }
+
+    }
